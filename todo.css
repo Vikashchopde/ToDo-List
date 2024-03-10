@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  .container{
+    height: 100vh;
+    width: 100%;
+    background-color: #212121;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cbox{
+     height: 70%;
+     width: 70%;
+     background: rgb(50, 50, 49);
+     /* border: 2px solid red; */
+  }
+  h1{
+    font-size: 40px;
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+  }
+  input{
+    margin-top: 30px;
+    width: 40%;
+    height: 60px;
+   margin-left: 400px;
+   border-radius: 50px;
+   outline: none;
+   border: none;
+   padding: 20px;
+   font-size: 18px; 
+  }
+  button{
+    width: 170px;
+    height: 60px;
+    font-size: 20px;
+    color: rgb(33, 18, 94);
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  ul{
+    /* border: 2px solid red; */
+    margin-top: 40px;
+    margin-left: 410px;
+    height: 50%;
+    width: 70%;
+    overflow-y: auto;
+  }
+  ::-webkit-scrollbar{
+    display: none;
+  }
+  li{
+    font-size: 25px;
+    color: white;
+    margin: 20px;
+  }
+  .delete{
+    width: 120px;
+    height: 30px;
+    margin-left: 50px;
+  }
